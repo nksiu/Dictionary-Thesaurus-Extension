@@ -1,0 +1,52 @@
+input[type=button] {
+    display: inline-block;
+    border: none;
+    background-color: #005b96;
+    color: #fff;
+    padding: 7px 20px;
+    cursor: pointer;
+  }
+
+.header {
+  text-align: center;
+  background-color: #005b96;
+  color: white;
+  padding: 1px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.dictionary {
+  text-align: center;
+  background-color: #005b96;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.thesaurus {
+  text-align: center;
+  background-color: #005b96;
+  color: white;
+  font-size: 12px;
+}
+
+#word_input {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background-color: #005b96;
+  }
+
+#dictionary_input {
+    text-align: left;
+    padding-right: 25px;
+    padding-bottom: 3px;
+
+  }
+
+#thesaurus_input {
+    text-align: left;
+    padding-right: 25px;
+    padding-bottom: 3px;
+  }

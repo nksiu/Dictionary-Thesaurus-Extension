@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <html>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+
+    <head>
+      <title>Dictionary and Thesaurus</title>
+      <script src="oxford_dic_popup.js"></script>
+      <script src="oxford_thes_popup.js"></script>
+    </head>
+
+    <body>
+      
+      <div class = "header">
+        <h3> Dictionary & Thesaurus</h3> 
+      </div>
+
+      <div>
+        <form style="display: flex">
+          <input type="text", 
+                 name="input",
+                 style= "flex: 10, padding: 20",
+                 placeholder="Enter a word" 
+                 id="input_text" 
+          />
+          <input type="button", 
+                 value="Search",
+                 id="enter_button", 
+                 style="flex: 1"         
+          /> 
+        </form>       
+      </div>
+
+      <div>
+        <p id="word_input"> </p>
+      </div>
+
+      <div class = "dictionary">
+        <h4>Definitions</h4>
+        <p id="dictionary_input"> </p>
+      </div>
+
+      <div class = "thesaurus">
+        <h4>Synonyms</h4>
+        <p id="thesaurus_input" ></p>
+      </div>
+    </body>
+  </html>
